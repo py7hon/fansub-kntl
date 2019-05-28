@@ -1,0 +1,728 @@
+.fansub-new-release {
+    clear: both;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 0 0;
+}
+
+.fansub-new-release > h2.box-title {
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 0 0 20px;
+}
+
+.fansub-new-release .box-content a {
+    border: medium none;
+    text-decoration: none;
+}
+
+.fansub-new-release .list-qualities > li > .quality,
+.fansub-new-release a:link {
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.fansub-new-release .search-form {
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: -10px;
+    padding: 4px;
+    position: relative;
+}
+
+.fansub-new-release .search-form .searchcontainer {
+    margin: 0 auto;
+    width: 230px;
+}
+
+.fansub-new-release .search-form .search-field {
+    background-color: rgba(220, 220, 220, 0.7);
+    border: 0 solid #ccc;
+    font-family: Open Sans;
+    font-size: 14px !important;
+    height: 22px;
+    margin-bottom: 0 !important;
+    padding: 0 10px;
+    text-align: center;
+    width: 260px;
+}
+
+.fansub-new-release .search-form .btn-refresh {
+    display: inline-block;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+
+.fansub-new-release .search-form .btn-refresh a {
+    cursor: pointer;
+}
+
+.fansub-new-release .search-form .btn-refresh a:hover {
+    color: #777;
+}
+
+.entry-content .fansub-new-release ul,
+.fansub-new-release ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.fansub-new-release ul.list-releases > li:after,
+.fansub-new-release ul.list-releases > li:before,
+.fansub-new-release ul:before,
+.fansub-new-release ul:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.fansub-new-release ul li {
+    box-shadow: none;
+    float: left;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.fansub-new-release .list-releases > li {
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.fansub-new-release .list-servers {
+    display: none;
+}
+
+.fansub-new-release .list-cols .col-date {
+    margin-right: 5px;
+}
+
+.fansub-new-release .list-cols .col-date,
+.fansub-new-release .list-cols .suffix {
+    color: #707070;
+}
+
+.fansub-new-release .list-cols .col-title {
+
+}
+
+.fansub-new-release .list-cols .col-download {
+    float: right;
+}
+
+.fansub-new-release .list-cols .post-title-link {
+    border-bottom: 1px dotted #000;
+}
+
+.fansub-new-release .list-releases > li .list-servers > li a:hover,
+.fansub-new-release .list-qualities > li > .quality.has-link:hover,
+.fansub-new-release .list-cols .post-title-link:hover {
+    background-color: #aaa;
+    color: #fff;
+}
+
+.fansub-new-release .list-qualities > li {
+    margin-left: 5px;
+    padding: 0 2px;
+}
+
+.fansub-new-release .list-qualities > li > .quality.has-link {
+    cursor: pointer;
+}
+
+.fansub-new-release .morebox {
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding: 4px;
+    text-align: center;
+}
+
+.fansub-new-release .morebox:hover {
+    background-color: #fee;
+}
+
+.fansub-new-release .morebox:hover a {
+    color: #333;
+}
+
+.fansub-new-release .list-qualities .quality-item .list-servers {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 100%;
+    width: 100%;
+    z-index: 499;
+}
+
+.fansub-new-release .list-qualities .quality-item .list-servers > li {
+    clear: none;
+    display: inline-block;
+    float: none;
+    padding: 0 2px;
+}
+
+.fansub-new-release .list-qualities .quality-item .list-servers > li.file-name {
+    color: #333;
+    float: left;
+    padding-left: 0;
+}
+
+.fansub-new-release .list-qualities .quality-item .list-servers > li span {
+    padding: 0 2px;
+}
+
+.fansub-new-release .list-releases > li.active {
+    margin-bottom: 25px;
+}
+
+.fansub-new-release .list-releases > li .list-servers > li {
+    color: #ddd;
+}
+
+.fansub-new-release .list-qualities .quality-item .quality {
+    color: #ddd;
+}
+
+.fansub-new-release .list-qualities .quality-item .quality.has-link {
+    color: #333;
+}
+
+.fansub-new-release a {
+    color: #333;
+}
+
+.fansub-new-release .series-image img {
+    float: left;
+    margin-bottom: 12px;
+    margin-right: 24px;
+}
+
+.fansub-new-release.single-box h2 {
+    border-bottom: 1px solid #ccc;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.fansub-new-release.single-box .tips {
+    background-color: rgba(220, 220, 220, 0.7);
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.fansub-new-release .noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fansub-new-release .series-info {
+    overflow: hidden;
+}
+
+.fansub-new-release .comments-area li {
+    float: none;
+}
+
+.fansub-new-release .comments-area li .children {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.fansub-new-release .comments-area li .avatar {
+    vertical-align: top;
+}
+
+.fansub-new-release .comments-area li p {
+    margin-bottom: 10px;
+}
+
+.fansub-new-release .comments-area li p:last-of-type {
+    margin-bottom: 0;
+}
+
+.fansub-new-release .comments-area li .comment-body {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.fansub-new-release.anime-list > h2 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.fansub-new-release.anime-list .pagination {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.fansub-new-release.anime-list .pagination .item {
+    color: #3d3d3d;
+    font-size: 18px;
+    margin: 0 2px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+
+.fansub-new-release.anime-list .pagination .item.link-item:hover,
+.fansub-new-release.anime-list .pagination .item.current-item {
+    background-color: #0075c1;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.fansub-new-release .list-animes .fansub-post {
+    border-bottom: 2px solid #e2e2e2;
+    float: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+.fansub-new-release .list-animes .fansub-post .entry-summary {
+    margin-left: 0;
+}
+
+.fansub-new-release .list-animes .fansub-post:last-child {
+    border-bottom: medium none;
+}
+
+.fansub-new-release .list-animes .fansub-post .anime-thumb {
+    float: left;
+    height: 196px;
+    margin-right: 20px;
+    position: relative;
+    width: 140px;
+}
+
+.fansub-new-release .list-animes .fansub-post .wp-post-image {
+    border-radius: 0;
+    box-shadow: none;
+    height: 32px;
+    width: 32px;
+}
+
+.fansub-new-release .anime-thumb .wp-post-image.lazyload {
+    height: 32px;
+    left: 50%;
+    margin: -16px 0 0 -16px;
+    position: absolute;
+    top: 50%;
+    width: 32px;
+}
+
+.fansub-new-release .list-animes .fansub-post .anime-thumb .wp-post-image.lazyloaded {
+    height: 100%;
+    width: 100%;
+}
+
+.fansub-new-release .list-animes .fansub-post .anime-thumb {
+    background: rgba(0, 0, 0, 0) url("../images/loading.gif") no-repeat scroll center center;
+}
+
+.fansub-new-release .list-animes .fansub-post .entry-title {
+    clear: none;
+    font-size: 21px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.fansub-new-release .list-animes .fansub-post .entry-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.fansub-new-release .list-animes .fansub-post .entry-title a:hover {
+    text-decoration: underline;
+}
+
+.fansub-new-release .list-animes .fansub-post .entry-summary {
+    color: #666;
+    font-size: 14px;
+}
+
+.fansub-new-release .list-animes .fansub-post .entry-summary p:last-child {
+    margin-bottom: 0;
+}
+
+.fansub-new-release .list-animes .fansub-post .more-link {
+    display: none;
+}
+
+.fansub-new-release.advanced-search .search-form {
+    margin: 0 auto;
+    max-width: 768px;
+    min-width: 400px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.fansub-new-release.advanced-search .search-form .search-submit {
+    background: rgba(0, 0, 0, 0) url("../images/icon-search.png") no-repeat scroll center center / 32px auto;
+    border-radius: 0 8px 8px 0;
+    border-width: 1px 1px 1px 0;
+    float: left;
+    height: 48px;
+    min-width: 70px;
+    text-indent: -9999px;
+    width: 10%;
+}
+
+.fansub-new-release.advanced-search .search-form label {
+    display: inline-block;
+    float: left;
+    width: 80%;
+}
+
+.fansub-new-release.advanced-search .search-form .search-field {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    color: #323232;
+    height: 48px;
+    text-align: left;
+    width: 100%;
+}
+
+.fansub-new-release.advanced-search .search-form .search-field {
+    box-sizing: border-box;
+    height: 48px;
+}
+
+.fansub-new-release.advanced-search .search-form .search-submit {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fansub-new-release.advanced-search .search-form .search-field:hover,
+.fansub-new-release.advanced-search .search-form .search-submit:hover {
+    border-color: #ddd;
+}
+
+.fansub-new-release.advanced-search .search-form .search-submit:hover {
+    background-color: #eee;
+}
+
+.ui-widget-content {
+    background-color: #ffffff;
+    border: 1px solid #bebebe !important;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 25px;
+    width: 277px;
+    z-index: 100;
+}
+
+.ui-widget-content .ui-menu-item {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ebebeb;
+    overflow: hidden;
+    padding: 2px !important;
+    text-align: left;
+}
+
+.ui-widget-content .ui-menu-item.ui-sate-focus,
+.ui-widget-content .ui-menu-item.focus,
+.ui-widget-content .ui-menu-item:hover {
+    background-color: #e1e7f5;
+    background-image: none !important;
+}
+
+.ui-widget-content .ui-menu-item .list a > span {
+    display: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.ui-widget-content .ui-menu-item .list a > span.thumb {
+    display: inline-block;
+}
+
+.ui-widget-content .ui-menu-item:hover .list a > span.thumb {
+    display: none;
+}
+
+.ui-widget-content .ui-menu-item:hover .list a > span.image {
+    display: inline-block;
+}
+
+.ui-widget-content .ui-menu-item .list a > span.thumb img {
+    height: 50px;
+    width: 70px;
+}
+
+.ui-widget-content .ui-menu-item .list a > span.image img {
+    height: 90px;
+    width: 70px;
+}
+
+.ui-widget-content .ui-menu-item .list a {
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.ui-widget-content .ui-menu-item:last-child {
+    padding-bottom: 0 !important;
+}
+
+.fansub-new-release.advanced-search .module-body .search-results {
+    margin-top: 10px;
+}
+
+.fansub-new-release.advanced-search .module-body .search-results > h4 {
+    border-bottom: 1px solid #bebebe;
+    margin: 0 0 10px;
+}
+
+.fansub-new-release.single-box .video-box .fansub-post {
+    border: medium none;
+    display: inline-block;
+    height: 146px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    padding: 0;
+    position: relative;
+    vertical-align: top;
+    width: 260px;
+}
+
+.fansub-new-release.single-box .video-box .fansub-post .post-thumbnail {
+    display: block;
+    position: relative;
+}
+
+.fansub-new-release.single-box .video-box .fansub-post .wp-post-image {
+    border-radius: 0;
+    box-shadow: none;
+    height: 146px;
+    width: 260px;
+}
+
+.fansub-new-release.single-box .video-box .fansub-post .entry-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    font-size: 13px;
+    left: 0;
+    margin: 0 !important;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.fansub-new-release.single-box .video-box .fansub-post .entry-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fansub-new-release.single-box .video-box .fansub-post .icon-play {
+    border-radius: 8px;
+    height: 38px;
+    left: 50%;
+    margin-left: -45px;
+    margin-top: -19px;
+    position: absolute;
+    top: 50%;
+    width: 90px;
+    z-index: 399;
+}
+
+.fansub-new-release.single-box .video-box .fansub-post:hover {
+    opacity: 0.7;
+}
+
+.fansub-new-release.single-box .video-box .fansub-post {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.fancybox-inner .wp-video .wp-video-shortcode,
+.fancybox-inner .wp-video {
+    height: 480px !important;
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+.fancybox-inner .wp-video .mejs-controls {
+    width: 100% !important;
+}
+
+.fancybox-inner iframe,
+.fancybox-inner .wp-video .wp-video-shortcode {
+    background-color: #000;
+}
+
+.fancybox-inner iframe {
+    height: 60%;
+    width: 100%;
+}
+
+.fansub-new-release.fansub-single .series-releases .video-box .bx-controls .bx-pager {
+    display: none;
+}
+
+.fansub-new-release.fansub-single .series-releases .video-box .bx-wrapper {
+    margin-bottom: 10px;
+}
+
+.fansub-new-release.fansub-single .series-releases .video-box .bx-wrapper .bx-viewport {
+    box-shadow: none;
+}
+
+.fansub-new-release.fansub-single .series-releases .video-box .bx-wrapper .bx-viewport .module-body {
+}
+
+.fansub-new-release.fansub-single .series-releases .video-box .bx-wrapper .bx-controls .bx-controls-direction a {
+    background-image: url("../images/btn-slider-control.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 80px auto;
+    cursor: pointer;
+    display: inline-block;
+    height: 80px;
+    margin-top: -40px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    width: 40px;
+    z-index: 10;
+}
+
+.fansub-new-release.fansub-single .series-releases .video-box .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
+    background-position: -40px 0;
+    left: -40px;
+    opacity: 0;
+}
+
+.fansub-new-release.fansub-single .series-releases .video-box .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
+    background-position: 0 0;
+    opacity: 0;
+    right: -40px;
+}
+
+.fansub-new-release.fansub-single .series-releases .video-box .bx-wrapper:hover .bx-controls .bx-controls-direction a.bx-prev {
+    left: 0;
+    opacity: 1;
+}
+
+.fansub-new-release.fansub-single .series-releases .video-box .bx-wrapper:hover .bx-controls .bx-controls-direction a.bx-next {
+    opacity: 1;
+    right: 0;
+}
+
+.fancybox-wrap .video-js,
+.fancybox-wrap p video,
+.video-box .video-js,
+.video-box video {
+    height: 100%;
+    width: 100%;
+}
+
+.fancybox-inner > div > div:not(.center), .fancybox-inner > div > div > .jwplayer {
+    height: 480px !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.fancybox-inner > div > div > .jwplayer.jw-flag-fullscreen .jw-stretch-uniform,
+.fancybox-inner > div > div > .jwplayer.jw-flag-fullscreen {
+    height: 100% !important;
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 620px) {
+    .fansub-new-release .list-cols > li {
+        display: inline-block;
+        float: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .fansub-new-release .list-cols > li:nth-child(2) {
+        max-width: 50%;
+    }
+
+    .fansub-new-release .list-qualities .quality-item .list-servers > li.file-name {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (max-width: 568px) {
+
+}
+
+@media only screen and (max-width: 563px) {
+
+}
+
+@media only screen and (max-width: 549px) {
+
+}
+
+@media only screen and (max-width: 534px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+    .fansub-new-release .list-qualities > li {
+        padding: 0;
+    }
+
+    .fansub-new-release .list-cols > li:nth-child(2) {
+        max-width: 35%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .fansub-new-release .list-cols .col-date {
+        display: none;
+    }
+
+    .fansub-new-release .list-cols > li:nth-child(2) {
+        max-width: 45%;
+    }
+}
+
+@media only screen and (max-width: 338px) {
+
+}
+
+@media only screen and (max-width: 330px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
