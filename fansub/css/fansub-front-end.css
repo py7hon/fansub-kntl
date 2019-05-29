@@ -1,0 +1,3011 @@
+
+
+body.fansub {
+    min-width: 250px;
+}
+
+.fansub a {
+    outline: 0 none;
+    transition: background-color 0s ease 0s, color 0.2s linear 0s;
+}
+
+.fansub a span + .fa,
+.fansub a .fa + span {
+    margin-left: 8px;
+}
+
+.fansub .aligncenter {
+    margin: 5px auto;
+}
+
+.fansub .alignright {
+    margin-left: 10px;
+}
+
+.fansub .alignleft {
+    margin-right: 10px;
+}
+
+.fansub .alignleft,
+.fansub .alignright {
+    margin-bottom: 10px;
+}
+
+.fansub div blockquote::before {
+    content: "“";
+    left: 6px;
+    top: 10px;
+}
+
+.fansub div blockquote::after {
+    bottom: 0;
+    content: "”";
+    right: 10px;
+}
+
+.fansub div blockquote::after,
+.fansub div blockquote::before {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+.fansub div blockquote {
+    background: transparent none repeat scroll 0 0;
+    border-left: 5px solid transparent;
+    margin-bottom: 24px;
+    padding: 20px 25px;
+}
+
+.fansub div blockquote > *:last-child {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.fansub div blockquote {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+.fansub input:focus::-webkit-input-placeholder { color:transparent; }
+.fansub input:focus:-moz-placeholder { color:transparent; }
+.fansub input:focus::-moz-placeholder { color:transparent; }
+.fansub input:focus:-ms-input-placeholder { color:transparent; }
+
+.fansub .fansub-go-top {
+    background-color: #e5e5e5;
+    border: 1px solid #ddd;
+    bottom: 50px;
+    line-height: 1;
+    opacity: 0.5;
+    padding: 10px;
+    position: fixed;
+    right: 20px;
+    z-index: 499;
+}
+
+.fansub .fansub-go-top.icon-image {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+}
+
+.fansub .fansub-go-top:hover {
+    opacity: 1;
+}
+
+.error404 .site-content {
+    overflow: hidden;
+}
+
+.fansub .site-content p *:not(.row):not(.owl-wrapper):not(.bxslider):not(.slider):not(.lSGallery):not(.pager):not(.carousel):not(.gm-bundled-control):not(.gmnoprint):not(.gm-svpc) {
+    max-width: 100%;
+}
+
+.fansub .list-square li {
+    list-style: square outside none;
+}
+
+/**
+ * Logo
+ */
+
+/**
+ * Icon
+ */
+.icon-left {
+    margin-right: 5px;
+}
+
+.icon-right {
+    margin-left: 5px;
+}
+
+/**
+ * Breadcrumb
+ */
+
+.fansub .breadcrumb .separator {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.fansub .breadcrumb ul {
+    margin: 0;
+}
+
+/**
+ * Pagination
+ */
+
+.fansub .pagination .nav-links .page-numbers,
+.fansub .fansub-pagination .item {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 5px 13px;
+}
+
+.fansub .pagination .nav-links .page-numbers:last-child,
+.fansub .fansub-pagination .item:last-child {
+    margin-right: 0;
+}
+
+/**
+ * Menu
+ */
+
+.fansub .fansub-menu {
+    margin: 0;
+}
+
+.fansub .sf-arrows .sf-with-ul::after {
+    right: 5px;
+}
+
+.fansub .mobile-menu-button {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+.fansub .fansub-mobile-menu.left + .mobile-menu-button {
+    border-right: 1px solid transparent;
+}
+
+.fansub .fansub-mobile-menu.right + .mobile-menu-button {
+    border-left: 1px solid transparent;
+}
+
+.fansub .fansub-mobile-menu {
+    height: 100%;
+    max-width: 250px;
+    padding: 0;
+    top: 0;
+    width: 250px;
+    z-index: 9999;
+}
+
+.fansub .fansub-mobile-menu.left {
+    left: -250px;
+}
+
+.fansub .fansub-mobile-menu.right {
+    right: -250px;
+}
+
+.fansub .fansub-mobile-menu.left + .mobile-menu-button,
+.fansub .fansub-mobile-menu.left.active {
+    left: 0;
+}
+
+.fansub .fansub-mobile-menu.right + .mobile-menu-button,
+.fansub .fansub-mobile-menu.right.active {
+    right: 0;
+}
+
+.fansub .fansub-mobile-menu.right + .mobile-menu-button {
+    float: right;
+}
+
+.fansub .mobile-menu-button .text {
+    margin-left: 5px;
+}
+
+.fansub .fansub-mobile-menu.left.active + .mobile-menu-button {
+    left: 250px;
+}
+
+.fansub .fansub-mobile-menu.right.active + .mobile-menu-button {
+    right: 250px;
+}
+
+.fansub.admin-bar .fansub-mobile-menu {
+    top: 32px;
+}
+
+.fansub .fansub-mobile-menu li {
+    border-left: medium none !important;
+    border-right: medium none !important;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.fansub .fansub-mobile-menu li a {
+    border-bottom: 1px solid #222 !important;
+    border-top: 1px solid #484848 !important;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 0 10px !important;
+    text-transform: uppercase;
+}
+
+.fansub .fansub-mobile-menu li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+
+.fansub .fansub-mobile-menu li:last-child {
+    border-bottom: 1px solid transparent;
+}
+
+.fansub .fansub-mobile-menu li:first-child {
+    border-top: 1px solid transparent;
+}
+
+.fansub .fansub-mobile-menu li.menu-item-has-children > .fa {
+    cursor: pointer;
+    margin-top: 0;
+    padding: 11px 10px;
+    right: 0;
+    top: 0;
+}
+
+.fansub .fansub-mobile-menu .sub-menu {
+    list-style: none outside none;
+    padding-left: 0;
+}
+
+.fansub .menu-item .search-form {
+    border: medium none;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.fansub .menu-item .search-form label {
+    margin: 0;
+}
+
+.fansub .fansub-mobile-menu .sub-menu li:first-child {
+    border-top: medium none;
+}
+
+.fansub .fansub-mobile-menu li a:hover {
+    text-decoration: none;
+}
+
+.fansub .fansub-mobile-menu .sub-menu li:last-child {
+    border-bottom: medium none;
+}
+
+.fansub .fansub-menu.fansub-mobile-menu .sub-menu {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding: 0;
+}
+
+.fansub .fansub-menu.fansub-mobile-menu .sub-menu li {
+    margin: 0;
+}
+
+.fansub .fansub-mobile-menu .search-form label {
+    width: 70% !important;
+}
+
+.fansub .fansub-mobile-menu .search-form .search-field {
+
+}
+
+/**
+ * Syntax Highlighter
+ */
+
+.fansub .syntaxhighlighter .container > div:nth-child(odd) {
+    background-color: #fafafa !important;
+}
+
+.fansub .syntaxhighlighter .container .line,
+.fansub .syntaxhighlighter .gutter .line {
+
+}
+
+.fansub .syntaxhighlighter > table > tbody > tr {
+    background: #fafbfc url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8AgMAAABHkjHhAAAACVBMVEWAgIBaWlo+Pj7rTFvWAAAAA3RSTlMHCAw+VhR4AAAA+klEQVQoz4WSMW7EQAhFPxKWNh2FCx+HkaZI6RRb5DYbyVfIJXLKDCFoMbaTKSw/8ZnPAPjaH2xgZcUNUDADD7D9LtDBCLZ45fbkvo/30K8yeI64pPwl6znd/3n/Oe93P3ho9qeh72btTFzqkz0rsJle8Zr81OLEwZ1dv/713uWqvu2pl+k0fy7MWtj9r/tN5q/02z89qa/L4Dc2LvM93kezPfXlME/O86EbY/V9GB9ePX8G1/6W+/9h1dq/HGfTfzT3j/xNo7522Bfnqe5jO/fvhVthlfk434v3iO9zG/UOphyPeinPl1J8Gtaa7xPTa/Dk+RIs4deMvwGvcGsmsCvJ0AAAAABJRU5ErkJggg==") repeat scroll 0 0 !important;
+    color: #4d4e53;
+}
+
+.fansub .syntaxhighlighter table .gutter .line,
+.fansub .syntaxhighlighter table .code .container > div,
+.fansub .syntaxhighlighter table .code .container {
+    background: transparent none repeat scroll 0 0 !important;
+}
+
+.fansub .syntaxhighlighter table .gutter .line {
+    border-right: medium none !important;
+}
+
+.fansub .syntaxhighlighter table .gutter,
+.fansub .syntaxhighlighter table .code {
+    padding-bottom: 1em !important;
+    padding-top: 1em !important;
+}
+
+.fansub div > .syntaxhighlighter {
+    max-height: 36em;
+    overflow: auto !important;
+}
+
+.fansub .syntaxhighlighter table td.code .line,
+.fansub .syntaxhighlighter table td.gutter .line {
+    line-height: 1.5 !important;
+}
+
+.fansub .syntaxhighlighter > table {
+    border-left: 6px solid #558abb !important;
+}
+
+.fansub .syntaxhighlighter.jscript > table {
+    border-left: 6px solid #f1e05a !important;
+}
+
+.fansub .syntaxhighlighter.css > table {
+    border-left: 6px solid #563d7c !important;
+}
+
+.fansub .syntaxhighlighter.php > table {
+    border-left: 6px solid #4f5d95 !important;
+}
+
+/**
+ * Comment
+ */
+
+.fansub .comments-area .comment-list {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.fansub .comments-area .comments-title {
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0;
+}
+
+.fansub .comments-area .comments-title .title-left {
+    border-bottom: 2px solid transparent;
+    font-weight: 700;
+    margin-bottom: -1px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.fansub .comment-list li {
+    border-bottom: 1px dotted transparent;
+    list-style: none outside none;
+    margin: 10px 0 0;
+    padding: 0 0 8px;
+}
+
+.fansub .comment-list li .children li:last-child {
+    border-bottom: medium none;
+    padding-bottom: 0;
+}
+
+.fansub .comment-list .avatar {
+    height: 56px;
+    left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    top: 0;
+    width: 56px;
+}
+
+.fansub .comment-list li .comment-respond {
+    margin-top: 25px;
+}
+
+.fansub .comment-list li #cancel-comment-reply-link {
+    margin-top: 35px;
+    padding: 10px 0;
+}
+
+.fansub .comment-list li .comment-tools {
+    margin-top: 8px;
+}
+
+.fansub .comment-list .comment-body .comment-tools > a {
+    border-right: 1px solid transparent;
+    line-height: 1px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.fansub .comment-list .comment-body .comment-tools > a:last-child {
+    border: medium none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.fansub .comment-list .comment-body .comment-tools .sep-dot {
+    color: #aaa;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.fansub .comment-list .comment-body .comment-tools > a.comment-share .fa,
+.fansub .comment-list .comment-body .comment-tools > a.comment-report .fa {
+    margin-left: 8px;
+}
+
+.fansub .comment-list .comment-body .comment-tools > a {
+    outline: 0 none;
+}
+
+.fansub .comment-list li .comment-meta,
+.fansub .comment-list li .comment-content {
+    margin-left: 70px;
+}
+
+.fansub .comment-list li .comment-meta > div:first-child {
+    margin-right: 5px;
+}
+
+.fansub .comment-list li .comment-meta > div:first-child:after {
+    content: "-";
+    margin-left: 5px;
+}
+
+.fansub .comment-list li .comment-content {
+    margin-top: 8px;
+}
+
+.fansub .comment-list li .edit-link {
+    margin-left: 5px;
+}
+
+.fansub .comment-list li .children {
+    padding: 0;
+}
+
+.fansub .comment-list .comment-body .comment-tools .list-share {
+    margin-top: 4px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 64px;
+    z-index: 399;
+}
+
+.fansub .comment-list .comment-body .comment-tools .list-share .fa {
+    font-size: 9px;
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+}
+
+.fansub .comment-list .comment-body .comment-tools .list-share .fa:first-child {
+    margin-left: 0;
+}
+
+.fansub .comment-list li .children {
+    border-top: 1px dotted transparent;
+    margin-top: 8px;
+    padding-left: 60px;
+}
+
+.fansub #respond h3 {
+    line-height: 32px;
+    margin-top: 35px;
+}
+
+.fansub .comment-form p {
+    margin-bottom: 15px;
+}
+
+.fansub .comment-form .form-submit.captcha-beside {
+    float: left;
+    margin-right: 15px;
+}
+
+.fansub .comment-form p label {
+    font-weight: 400;
+}
+
+.fansub .comment-form p input[type="submit"] {
+    padding: 10px 20px;
+}
+
+.fansub form input[type="file"],
+.fansub form select,
+.fansub form input[type="password"],
+.fansub form input[type="url"],
+.fansub form input[type="email"],
+.fansub form input[type="tel"],
+.fansub form input[type="text"],
+.fansub form textarea {
+    border: 1px solid transparent;
+}
+
+.fansub form input[type="file"],
+.fansub form select,
+.fansub form textarea,
+.fansub form input[type="password"],
+.fansub form input[type="url"],
+.fansub form input[type="email"],
+.fansub form input[type="tel"],
+.fansub form input[type="text"] {
+    padding: 5px 10px;
+    width: 45%;
+}
+
+.fansub form textarea {
+    width: 75%;
+}
+
+/**
+ * Bootstrap
+ */
+
+.fansub .carousel-fade .carousel-inner .item {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.fansub .carousel-fade .carousel-inner .item.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.fansub .carousel-fade .carousel-inner .item.active.left {
+    visibility: visible;
+}
+
+.fansub .carousel .list-controls .carousel-control {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    font-size: 30px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 1;
+    margin-top: -15px;
+    top: 50%;
+    width: 50px;
+}
+
+.fansub .carousel {
+    padding-bottom: 35px;
+}
+
+.fansub .carousel .carousel-indicators .carousel-paginate {
+    background: #869791 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 20px;
+    height: 12px;
+    margin: 10px 3px 5px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+.fansub .carousel .carousel-indicators .carousel-paginate.active,
+.fansub .carousel .carousel-indicators .carousel-paginate:hover {
+    opacity: 1;
+}
+
+.row-small {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row-small [class*="col"],
+.row-small [class^="col"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fansub .modal button.close {
+    font-size: 20px;
+}
+
+.fansub .vertical .carousel-inner {
+    height: 100%;
+}
+
+.fansub .carousel.vertical .item {
+    -webkit-transition: 0.6s ease-in-out top;
+    -moz-transition: 0.6s ease-in-out top;
+    -ms-transition: 0.6s ease-in-out top;
+    -o-transition: 0.6s ease-in-out top;
+    transition: 0.6s ease-in-out top;
+}
+
+.fansub .carousel.vertical .active {
+    top: 0;
+}
+
+.fansub .carousel.vertical .next {
+    top: 100%;
+}
+
+.fansub .carousel.vertical .prev {
+    top: -100%;
+}
+
+.fansub .carousel.vertical .next.left,
+.fansub .carousel.vertical .prev.right {
+    top: 0;
+}
+
+.fansub .carousel.vertical .active.left {
+    top: -100%;
+}
+
+.fansub .carousel.vertical .active.right {
+    top: 100%;
+}
+
+.fansub .carousel.vertical .item {
+    left: 0;
+}
+
+/**
+ * bxSlider, gallery
+ */
+
+#bx-pager {
+    background: #ddd none repeat scroll 0 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.lSSlideOuter .lSPager.lSGallery li a img {
+    border: 4px solid #ddd;
+    height: 45px;
+}
+
+#bx-pager a img {
+    border: 4px solid #ddd;
+    box-sizing: content-box;
+    height: 45px;
+    margin: 0 2px;
+}
+
+.lSSlideOuter .lSPager.lSGallery li a img {
+    width: 100%;
+}
+
+#bx-pager a img {
+    width: 9%;
+}
+
+.fansub .lSSlideOuter .lSPager.lSGallery li.active,
+.fansub .lSSlideOuter .lSPager.lSGallery li:hover {
+    border-radius: 0;
+}
+
+.lSSlideOuter .lSPager.lSGallery li.active a img,
+.lSPager a img:hover,
+#bx-pager a img:hover,
+#bx-pager a.active img {
+    border-color: #ed145b;
+    border-radius: 0;
+}
+
+.galleries .bx-wrapper {
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.bx-wrapper .bxslider img {
+    height: 400px;
+    width: 100%;
+}
+
+.fansub-gallery li img {
+    width: 100%;
+}
+
+.lSSlideOuter .lSAction .lSNext,
+.lSSlideOuter .lSAction .lSPrev {
+    background: no-repeat center center;
+    height: 60px;
+    margin-top: -30px;
+    width: 60px;
+}
+
+.lSSlideOuter .lSAction .lSPrev {
+    background-image: url("../images/icon-keyboard-arrow-left-60.png");
+    left: 0;
+}
+
+.lSSlideOuter .lSAction .lSNext {
+    background-image: url("../images/icon-keyboard-arrow-right-60.png");
+    right: 0;
+}
+
+/**
+ * Table
+ */
+
+.fansub table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.6em;
+    table-layout: fixed;
+}
+
+.fansub table th,
+.fansub table td {
+    padding: 7px 15px;
+}
+
+/**
+ * Entry content
+ */
+
+.fansub .entry-content h1,
+.fansub .entry-content h2,
+.fansub .entry-content h3,
+.fansub .entry-content h4,
+.fansub .entry-content h5,
+.fansub .entry-content h6 {
+    margin-bottom: 15px;
+}
+
+.fansub .entry-content p {
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+.entry-tags {
+    display: block;
+    margin-top: 10px;
+}
+
+.entry-tags > * {
+    background-color: #f1f1f1;
+    color: #656565;
+    font-size: 11px;
+    margin: 0 5px 5px 0;
+    padding: 2px 5px;
+    white-space: nowrap;
+}
+
+.entry-tags a:hover {
+    background-color: #e2e2e2;
+}
+
+.entry-meta > * {
+    margin-right: 10px;
+}
+
+.entry-meta > *:last-child {
+    margin-right: 0;
+}
+
+.entry-meta > *::before {
+    color: #eb242b;
+    margin-right: 5px;
+}
+
+.entry-meta > * .fa,
+.entry-meta > *::before {
+    color: #eb242b;
+}
+
+.entry-meta .entry-time:before {
+    content: "\f017";
+}
+
+.entry-meta .entry-modified-time:before {
+    content: "\f021";
+}
+
+.entry-meta .entry-author:before {
+    content: "\f007";
+    margin-right: 0;
+}
+
+.entry-meta .entry-comments-link:before {
+    content: "\f086";
+    margin-right: 0;
+}
+
+.fansub .entry-content figure {
+    margin-bottom: 20px;
+}
+
+.fansub .entry-content figure figcaption {
+    font-style: italic;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.fansub .entry-content figure.gallery-item {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    width: 25%;
+}
+
+.fansub .entry-content h1,
+.fansub .entry-content h2 {
+    font-size: 23px;
+}
+
+.fansub .entry-content h3 {
+    font-size: 19px;
+}
+
+.fansub .entry-content h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.entry-content p img + em,
+.entry-content p img + br + em {
+    display: block;
+    margin-top: 5px;
+}
+
+.entry-content .bold-it {
+    font-weight: 700;
+}
+
+/**
+ * Account
+ */
+
+.fansub-login-box {
+    margin: auto;
+    max-width: 500px;
+    padding: 1%;
+    width: 500px;
+}
+
+.fansub-login-box .logo img {
+    display: block;
+    margin: 10px auto;
+    width: 33%;
+}
+
+.fansub-login-box .module-body {
+    background-color: #e5e5e5;
+    border-radius: 0.4em;
+    border: 1px solid #cdcdcd;
+    border-top: 0 transparent;
+    color: #282828;
+    padding: 35px;
+}
+
+.fansub-login-box .module-body label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.fansub-login-box .module-body input.input {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    color: #434343;
+    font-size: 1.2em;
+    height: 2.5em;
+    padding: 0.3em;
+    width: 100%;
+}
+
+.fansub-login-box .module-body input[type="checkbox"] {
+    vertical-align: -1px;
+}
+
+.fansub-login-box .module-body p:last-child {
+    margin-bottom: 0;
+}
+
+.fansub .fansub-login-box .module-body input[type="submit"],
+.fansub .fansub-login-box .module-body .submit input,
+.fansub .fansub-login-box .module-body .login-submit input {
+    line-height: 25px;
+    width: 100%;
+}
+
+.fansub .fansub-login-box .form-nav {
+    color: #333;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.fansub .fansub-login-box .form-nav * {
+    float: left;
+}
+
+.fansub .fansub-login-box .form-nav .sep {
+    margin: 0 5px;
+}
+
+.fansub .fansub-login-box .form-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/**
+ * Widgets
+ */
+
+.fansub .sidebar {
+    position: relative;
+}
+
+.fansub .sidebar .widget.fixed {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    z-index: 399;
+}
+
+.fansub.admin-bar .sidebar .widget.fixed {
+    top: 32px;
+}
+
+.fansub .widget {
+    margin-bottom: 20px;
+}
+
+.fansub .widget ul,
+.fansub .widget ol {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.fansub .widget .widget-title + * {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid transparent;
+    padding: 15px;
+}
+
+.fansub .widget.fansub-icon-widget .widget-content .widget-title + * {
+    border: medium none;
+    padding: 0;
+}
+
+.fansub .widget.fansub-icon-widget .widget-content .icon {
+    margin-bottom: 10px;
+}
+
+.fansub .widget .widget-title {
+    margin-top: 0;
+}
+
+.fansub .widget li {
+    border-bottom: 1px dashed transparent;
+    list-style: none outside none;
+    padding: 7px 0 10px;
+}
+
+.fansub .widget li:last-child {
+    border-bottom: medium none;
+    padding-bottom: 0;
+}
+
+.fansub .widget li:first-child {
+    border-top: medium none;
+    padding-top: 0;
+}
+
+.fansub #wp-calendar caption { margin-top: 10px; margin-bottom: 15px; }
+.fansub #wp-calendar thead th {
+    padding-bottom: 10px;
+}
+
+.fansub #wp-calendar tbody td { border: 1px solid transparent; padding: 8px;}
+.fansub #wp-calendar tbody .pad { background: none; }
+.fansub #wp-calendar tfoot #next { text-transform: uppercase; }
+.fansub #wp-calendar tfoot #prev { text-transform: uppercase; padding-top: 10px; }
+
+.fansub #wp-calendar tbody td:first-child {
+    border-left: medium none;
+}
+
+.fansub input[type="search"],
+.fansub .content-area .search-form .search-field,
+.fansub .fansub-feedburner-widget .email-field,
+.fansub .widget-sb-subscribe .email-field,
+.fansub .widget_search .search-field {
+    border: 1px solid transparent;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    height: 34px;
+    padding: 6px 8px;
+}
+
+.fansub .search-form label,
+.fansub .content-area .search-form label,
+.fansub .fansub-feedburner-widget .email-field,
+.fansub .widget-sb-subscribe .email-field,
+.fansub .widget_search label {
+    width: 70%;
+}
+
+.fansub form:not(.tinymce-form):not(.cart) button,
+.fansub form:not(.tinymce-form):not(.cart) .button:not(#wp-link-submit),
+.fansub form input[type="submit"]:not(#wp-link-submit) {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.fansub form:not(.tinymce-form):not(.cart) button,
+.fansub form:not(.tinymce-form):not(.cart) .button:not(#wp-link-submit),
+.fansub form input[type="submit"]:not(#wp-link-submit) {
+    padding: 8px 20px;
+}
+
+.fansub .fansub-mobile-menu .menu-item form.search-form input.search-submit,
+.fansub .fansub-mobile-menu form.search-form input.search-submit {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.fansub .search-form .search-submit,
+.fansub .content-area .search-form .search-submit,
+.fansub .widget-sb-subscribe .btn-submit,
+.fansub .fansub-feedburner-widget .btn-submit,
+.fansub .widget_search .search-submit {
+    height: 34px;
+    padding: 6px;
+    width: 30%;
+}
+
+.fansub .no-results .search-form,
+.fansub .content-area .search-form {
+    min-width: 250px;
+    width: 60%;
+}
+
+.fansub .widget_tag_cloud {
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.fansub .widget_tag_cloud .widget-title {
+    border-bottom: 1px solid transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    margin: 0;
+    padding: 10px 14px;
+}
+
+.fansub .widget_tag_cloud .widget-title + * {
+    padding: 10px;
+}
+
+.fansub .fansub-widget-facebook-box,
+.fansub .fansub-widget-facebook-box > div,
+.fansub .fansub-widget-facebook-box > div > span,
+.fansub .fansub-widget-facebook-box > div > span > iframe {
+    max-width: 100% !important;
+}
+
+.one-widget .widget {
+    margin: 0;
+}
+
+.fansub-widget-post li {
+
+}
+
+.fansub-widget-post li .entry-title {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 0;
+}
+
+.fansub-widget-post li .entry-title a {
+
+}
+
+.fansub-widget-post li .wp-post-image {
+    float: left;
+    margin-right: 10px;
+}
+
+.fansub-widget-post li:not(.full-width) .wp-post-image {
+    max-width: 100px;
+}
+
+.fansub-widget-post .full-width .wp-post-image {
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 8px;
+    margin-right: 0;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.fansub-widget-post .post-slider .carousel-control {
+    display: none;
+}
+
+.fansub-widget-post .post-slider .carousel-indicators {
+    height: auto;
+    margin: 5px 0;
+    overflow: hidden;
+    padding: 0;
+    position: static;
+    text-align: right;
+    width: 100%;
+}
+
+.fansub .fansub-widget-post .post-slider .carousel-indicators .indicator-item:first-child,
+.fansub .fansub-widget-post .post-slider .carousel-indicators .indicator-item:last-child,
+.fansub .fansub-widget-post .post-slider .carousel-indicators .indicator-item {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    float: none;
+    height: 15px;
+    line-height: 8px;
+    padding: 1px;
+    width: 15px;
+}
+
+.fansub .fansub-widget-post .post-slider .carousel-indicators .indicator-item span {
+    border-radius: 50%;
+    display: block;
+    height: 100%;
+    text-align: center;
+    text-indent: -9999px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.fansub .fansub-widget-post .post-slider .list-posts {
+    border-top: 1px dashed transparent;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.fansub .fansub-widget-post .post-slider .list-posts .fansub-post .wp-post-image {
+    display: block;
+}
+
+.fansub .fansub-widget-post .post-slider a:hover {
+    text-decoration: none;
+}
+
+.fansub .fansub-widget-post .post-slider .list-posts .fansub-post .entry-title {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 0;
+}
+
+.fansub .fansub-widget-post .post-slider .list-posts li:first-child,
+.fansub .fansub-widget-post .post-slider .list-posts li:last-child,
+.fansub .fansub-widget-post .post-slider .list-posts li {
+    
+}
+
+.fansub .fansub-widget-post .post-slider .entry-title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-top: 5px;
+}
+
+.fansub .fansub-widget-post .post-slider .entry-title a {
+    color: #333;
+}
+
+.fansub .fansub-widget-post .post-slider .post-excerpt {
+    color: #444;
+    margin-bottom: 0;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.fansub .fansub-widget-term .list-terms .term-item .wp-term-image {
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.fansub .fansub-widget-term .list-terms .term-item:not(.only-thumbnail, .full-width) .wp-term-image {
+    width: 40%;
+}
+
+.fansub .fansub-widget-term .list-terms .term-item.full-width .wp-term-image,
+.fansub .fansub-widget-term .list-terms .term-item.only-thumbnail .wp-term-image {
+    margin: 0 0 5px;
+    width: 100%;
+}
+
+.fansub .fansub-widget-term .list-terms .term-item.no-count > a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fansub .fansub-widget-term .list-terms .term-item .term-name {
+    line-height: 17px;
+}
+
+.fansub .fansub-widget-term .list-terms .term-item.show-count.show-thumbnail .term-name {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 6px;
+}
+
+.fansub .fansub-feedburner-widget .feedburner-form + .description {
+    margin-top: 10px;
+}
+
+.fansub-tabber-widget .fansub-tab-content .nav-tabs li {
+    padding: 0;
+    width: auto;
+}
+
+.fansub-tabber-widget .fansub-tab-content .tab-content {
+    padding: 10px 0;
+}
+
+.fansub-subscribe-widget .fansub-subscribe-form .fansub-captcha-code,
+.fansub-subscribe-widget .fansub-subscribe-form .form-control {
+    width: 100%;
+}
+
+.fansub-subscribe-widget .fansub-subscribe-form .fansub-captcha-code {
+    margin-bottom: 10px;
+}
+
+.fansub .fansub-login-box form .fansub-captcha-code {
+    background-color: #fff;
+    min-width: 50%;
+}
+
+.fansub .fansub-login-box form .fansub-captcha-code + .fansub-captcha-image {
+
+}
+
+.fansub.login form .btn-social-login,
+.fansub .fansub-login-box form .btn-social-login {
+    width: 100%;
+}
+
+.sidebar [class^="col-"] {
+    width: 100%;
+}
+
+/**
+ * Search form
+ */
+
+.single-product .fansub-post .entry-summary .product_meta > span:before,
+.entry-meta > *::before,
+.search-form.use-icon-search .search-submit {
+    font-family: "FontAwesome";
+}
+
+.fansub .search-form.icon-in label {
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+
+.fansub .search-form.icon-in {
+    position: relative;
+}
+
+.fansub .search-form.icon-in .search-submit {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: medium none !important;
+    color: #333 !important;
+    padding: 8px 12px !important;
+    position: absolute;
+    right: 0;
+    width: auto;
+}
+
+.fansub .search-form.icon-in .search-field {
+    padding-right: 35px;
+}
+
+/**
+ * Decoration
+ */
+
+.fansub .comment-list .comment-body .comment-tools > a:hover,
+.fansub .pagination .nav-links a.page-numbers:hover,
+.fansub .fansub-pagination .link-item:hover,
+.fansub form:not(.tinymce-form) button,
+.fansub form:not(.tinymce-form) .button:not(#wp-link-submit),
+.fansub form input[type="submit"]:not(#wp-link-submit),
+.fansub .widget li a:hover {
+    text-decoration: none;
+}
+
+.fansub .comment-list li #cancel-comment-reply-link {
+    text-decoration: underline;
+}
+
+/**
+ * Text align
+ */
+
+.fansub table th,
+.fansub table td {
+    text-align: left;
+}
+
+.fansub #wp-calendar tfoot #next,
+.fansub #wp-calendar caption,
+.fansub .comment-list .comment-body .comment-tools .list-share {
+    text-align: right;
+}
+
+.fansub #wp-calendar tbody td,
+.fansub form:not(.tinymce-form) button,
+.fansub form:not(.tinymce-form) .button:not(#wp-link-submit),
+.fansub form input[type="submit"]:not(#wp-link-submit),
+.fansub .fansub-widget-facebook-box > div,
+.one-widget .widget,
+.fansub #wp-calendar thead th,
+.fansub .comment-list .comment-body .comment-tools .list-share .fa {
+    text-align: center;
+}
+
+/**
+ * TinyMCE
+ */
+
+.tinymce-form .mce-tinymce > .mce-container-body,
+.tinymce-form .quicktags-toolbar {
+    border: 1px solid #dedede;
+}
+
+.tinymce-form .wp-editor-container textarea {
+    border-top: medium none;
+}
+
+.fansub .wp-core-ui div label input,
+.tinymce-form .wp-editor-container textarea,
+.tinymce-form .wp-editor-container textarea:focus {
+    background-color: #fff;
+}
+
+.tinymce-form .quicktags-toolbar .button {
+    box-shadow: none;
+}
+
+.wp-core-ui #link-options label {
+    width: 100%;
+}
+
+.fansub .wp-core-ui div label,
+.wp-core-ui div label input {
+    font-weight: 400;
+}
+
+/**
+ * Transition
+ */
+
+.fansub .mobile-menu-button,
+.fansub .fansub-mobile-menu {
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.fansub .carousel-fade .carousel-inner .item {
+    -webkit-transition: opacity 3s linear;
+    -moz-transition: opacity 3s linear;
+    -ms-transition: opacity 3s linear;
+    -o-transition: opacity 3s linear;
+    transition: opacity 3s linear;
+}
+
+.fansub .pagination .nav-links .page-numbers,
+.fansub .fansub-pagination .item,
+.fansub .fansub-feedburner-widget .email-field,
+.fansub .widget-sb-subscribe .email-field,
+.fansub .widget_search .search-field,
+.fansub form:not(.tinymce-form) button,
+.fansub form:not(.tinymce-form) .button:not(#wp-link-submit),
+.fansub form input[type="submit"]:not(#wp-link-submit) {
+    -webkit-transition: all 0.25s linear 0s;
+    -moz-transition: all 0.25s linear 0s;
+    -ms-transition: all 0.25s linear 0s;
+    -o-transition: all 0.25s linear 0s;
+    transition: all 0.25s linear 0s;
+}
+
+/**
+ * Color
+ */
+
+.fansub div blockquote,
+.fansub form:not(.tinymce-form):not(.cart) button,
+.fansub form:not(.tinymce-form):not(.cart) .button:not(#wp-link-submit),
+.fansub form input[type="submit"]:not(#wp-link-submit),
+.fansub .comments-area .comments-title .title-left {
+    border-color: #9ed461;
+}
+
+.fansub .comment-list .comment-body .comment-tools > a {
+    border-color: #aaa;
+}
+
+.fansub #wp-calendar tbody td,
+.fansub .fansub-mobile-menu.left + .mobile-menu-button,
+.fansub .fansub-mobile-menu.right + .mobile-menu-button {
+    border-color: #fff;
+}
+
+.fansub .fansub-mobile-menu li:last-child {
+    border-color: #484848;
+}
+
+.fansub .fansub-widget-post .post-slider .list-posts,
+.fansub .search-form .search-field,
+.fansub .comment-list li .children,
+.fansub .content-area .search-form .search-field,
+.fansub .widget_tag_cloud .widget-title,
+.fansub .widget_tag_cloud,
+.fansub .fansub-feedburner-widget .email-field,
+.fansub .widget-sb-subscribe .email-field,
+.fansub .widget_search .search-field,
+.fansub .widget li,
+.fansub .widget .widget-title + *,
+.fansub table,
+.fansub th,
+.fansub td,
+.fansub form input[type="file"],
+.fansub form select,
+.fansub form input[type="password"],
+.fansub form input[type="url"],
+.fansub form input[type="email"],
+.fansub form input[type="tel"],
+.fansub form input[type="text"],
+.fansub form textarea,
+.fansub .comment-list li,
+.fansub .comments-area .comments-title {
+    border-color: #e4e4e4;
+}
+
+.fansub form:not(.tinymce-form):not(.cart) button:hover,
+.fansub form:not(.tinymce-form):not(.cart) .button:not(#wp-link-submit):hover,
+.fansub form input[type="submit"]:not(#wp-link-submit):hover,
+.fansub .fansub-mobile-menu li:first-child {
+    border-color: #222;
+}
+
+.fansub .pagination .nav-links .page-numbers,
+.fansub .fansub-pagination .item,
+.fansub form:not(.tinymce-form) button,
+.fansub form:not(.tinymce-form) .button:not(#wp-link-submit),
+.fansub form input[type="submit"]:not(#wp-link-submit),
+.fansub .fansub-mobile-menu li.menu-item-has-children > .fa,
+.fansub .fansub-mobile-menu li a {
+    color: #fff;
+}
+
+.fansub .widget li a:hover {
+    color: #9ed461;
+}
+
+.fansub div blockquote::after,
+.fansub div blockquote::before {
+    color: #ccc;
+}
+
+.fansub .required,
+.fansub .comment-list li #cancel-comment-reply-link {
+    color: #ff0000;
+}
+
+.fansub .comment-list li .comment-metadata a,
+.fansub .comment-list li .comment-author.vcard {
+    color: #b6b6b6;
+}
+
+.fansub #wp-calendar caption,
+.fansub .comment-list li .comment-author .fn {
+    color: #333;
+}
+
+.fansub #respond h3 {
+    color: #555;
+}
+
+.fansub .widget li a {
+    color: #545658;
+}
+
+.fansub .search-form .search-field,
+.fansub .fansub-feedburner-widget .email-field,
+.fansub .widget-sb-subscribe .email-field,
+.fansub .widget_search .search-field {
+    color: #888;
+}
+
+.fansub #wp-calendar tbody {
+    color: #aaa;
+}
+
+.fansub .fansub-widget-post .post-slider .carousel-indicators .indicator-item:hover span,
+.fansub .fansub-widget-post .post-slider .carousel-indicators .indicator-item.active span,
+.fansub .pagination .nav-links .page-numbers,
+.fansub .fansub-pagination .item,
+.fansub form:not(.tinymce-form):not(.cart) button,
+.fansub form:not(.tinymce-form):not(.cart) .button:not(#wp-link-submit),
+.fansub form input[type="submit"]:not(#wp-link-submit) {
+    background-color: #9ed461;
+}
+
+.fansub div blockquote {
+    background-color: #eee;
+}
+
+.fansub .pagination .nav-links .page-numbers.current,
+.fansub .fansub-pagination .current-item,
+.fansub .pagination .nav-links a.page-numbers:hover,
+.fansub .fansub-pagination .link-item:hover,
+.fansub form:not(.tinymce-form):not(.cart) button:hover,
+.fansub form:not(.tinymce-form):not(.cart) .button:not(#wp-link-submit):hover,
+.fansub form input[type="submit"]:not(#wp-link-submit):hover {
+    background-color: #222;
+}
+
+.fansub .fansub-mobile-menu {
+    background-color: #333;
+}
+
+.fansub .widget_tag_cloud .widget-title,
+.fansub form input[type="file"],
+.fansub form select,
+.fansub form input[type="password"],
+.fansub form input[type="url"],
+.fansub form input[type="email"],
+.fansub form input[type="tel"],
+.fansub form input[type="text"],
+.fansub form textarea {
+    background-color: #f1f1f1;
+}
+
+.fansub #wp-calendar tbody td {
+    background-color: #f5f5f5;
+}
+
+.fansub #wp-calendar tbody td:hover,
+.fansub .widget .widget-title + *,
+.fansub form input[type="file"]:focus,
+.fansub form select:focus,
+.fansub form input[type="password"]:focus,
+.fansub form input[type="url"]:focus,
+.fansub form input[type="email"]:focus,
+.fansub form input[type="tel"]:focus,
+.fansub form input[type="text"]:focus,
+.fansub form textarea:focus {
+    background-color: #fff;
+}
+
+/**
+ * Size
+ */
+
+.fansub #wp-calendar tfoot #prev,
+.fansub #wp-calendar tfoot #next,
+.fansub #wp-calendar thead {
+    font-size: 10px;
+}
+
+.fansub .comment-list li .reply,
+.fansub .comment-list .comment-body .comment-tools {
+    font-size: 11px;
+}
+
+.fansub .comment-list .comment-body .comment-meta {
+    font-size: 12px;
+}
+
+.fansub .comment-list .comment-body .comment-awaiting-moderation {
+    clear: both;
+    color: #999;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.fansub .content-area .search-form .search-submit,
+.fansub .widget-sb-subscribe .btn-submit,
+.fansub .widget_search .search-submit,
+.fansub .content-area .search-form .search-field,
+.fansub .fansub-feedburner-widget .email-field,
+.fansub .widget-sb-subscribe .email-field,
+.fansub .widget_search .search-field,
+.fansub .comment-list li #cancel-comment-reply-link,
+.fansub .fansub-mobile-menu li a,
+.fansub div blockquote {
+    font-size: 13px;
+}
+
+.fansub #wp-calendar caption,
+.fansub .comments-area .comments-title,
+.fansub div blockquote {
+    font-size: 14px;
+}
+
+.fansub div blockquote::after,
+.fansub div blockquote::before {
+    font-size: 40px;
+}
+
+.fansub .fr,
+.fansub .col-right,
+.fansub .comment-list li .reply,
+.fansub .comment-list li .comment-tools,
+.fansub .comment-list li #cancel-comment-reply-link,
+.fansub .comments-area .comments-title .count,
+.fansub .alignright {
+    float: right;
+}
+
+.fansub .search-form label,
+.fansub .fl,
+.fansub .col-left,
+.fansub .content-area .search-form .search-submit,
+.fansub .search-form .search-submit,
+.fansub .widget-sb-subscribe .btn-submit,
+.fansub .widget_search .search-submit,
+.fansub .content-area .search-form label,
+.fansub .fansub-feedburner-widget .email-field,
+.fansub .widget-sb-subscribe .email-field,
+.fansub .widget_search label,
+.fansub .widget li,
+.fansub .comment-list li .comment-author,
+.fansub .comment-list .comment-body .comment-meta > div,
+.fansub .alignleft {
+    float: left;
+}
+
+.fansub .comment-list li .comment-meta,
+.fansub .content-area .search-form,
+.fansub .widget-sb-subscribe .feedburner-form,
+.fansub .widget_search .search-form,
+.fansub .widget ul,
+.fansub .widget ol {
+    overflow: hidden;
+}
+
+.fansub .fansub-go-top,
+.fansub-pagination.no-paged,
+.one-widget .widget,
+.fansub .updated:not(.published),
+.fansub .comment-respond .comment-reply-title .title-text,
+.fansub .comment-list .comment-body .comment-tools .list-share,
+.fansub .mobile-menu-button,
+.fansub .site-branding .site-description,
+.fansub .fb-page blockquote:after,
+.fansub .fb-page blockquote:before,
+.fansub .screen-reader-text,
+.fansub .comment-list li .comment-meta .says {
+    display: none;
+}
+
+.fansub .comment-list .comment-body .comment-awaiting-moderation,
+.one-widget .widget:first-child,
+.fansub .comment-list .comment-body .comment-tools .active .list-share,
+.fansub .content-area .search-form .search-field,
+.fansub .widget-sb-subscribe .email-field,
+.fansub .widget_search .search-field,
+.fansub .comment-form p label,
+.fansub .fansub-mobile-menu.active,
+.fansub .fansub-mobile-menu li a,
+.fansub .fansub-mobile-menu li,
+.fansub .aligncenter {
+    display: block;
+}
+
+.fansub .fa,
+.fansub form input[type="checkbox"],
+.fansub form input[type="radio"],
+.fansub .list-comments + .comment-respond .comment-reply-title .title-text,
+.fansub .comment-list li .comment-respond .comment-reply-title .title-text,
+.fansub .comment-list .comment-body .comment-tools > a,
+.fansub .comments-area .comments-title .title-left {
+    display: inline-block;
+}
+
+.fansub .comment-list li:after,
+.fansub .clearfix:after,
+.fansub .comment-list .comment-body:after {
+    display: table;
+}
+
+.fansub .syntaxhighlighter .container:before {
+    display: inherit;
+}
+
+.fansub .comment-list li .comment-body,
+.fansub .fansub-mobile-menu li.menu-item-has-children,
+.fansub .mobile-menu-button,
+.fansub div blockquote,
+.fansub .comment-list .comment-body .comment-tools > a.comment-share {
+    position: relative;
+}
+
+.fansub .comment-list .avatar,
+.fansub .fansub-mobile-menu li.menu-item-has-children > .fa,
+.fansub div blockquote::after,
+.fansub div blockquote::before {
+    position: absolute;
+}
+
+.fansub .fansub-mobile-menu {
+    position: fixed;
+}
+
+.fansub .comment-list li:after,
+.fansub .clearfix:after,
+.fansub .comment-list .comment-body:after {
+    content: " ";
+}
+
+.fansub form .btn-social-login {
+    text-align: left;
+}
+
+.fansub .site .site-content form .btn-social-login:active,
+.fansub .site .site-content form .btn-social-login:focus,
+.fansub .btn-ajax:focus,
+.fansub .btn-ajax:active,
+.fansub form .btn-ajax:focus,
+.fansub form .btn-ajax:active,
+.fansub form .btn-social-login:focus,
+.fansub form .btn-social-login:active {
+    cursor: wait;
+}
+
+.fansub .site .site-content form button.btn-facebook,
+.fansub form button.btn-facebook {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #3b5998 0px, #344e86 100%) repeat scroll 0 0;
+    border: 1px solid #344e86;
+}
+
+.fansub .site .site-content form .btn-social-login,
+.fansub form .btn-social-login {
+    color: #f7f7f7;
+    display: inline;
+    font-weight: 700;
+    margin: 0;
+    outline: 0 none;
+    transition: none 0s ease 0s;
+}
+
+.fansub .site .site-content form .btn-social-login.btn-google,
+.fansub form button.btn-google {
+    background: #d14836 linear-gradient(to bottom, #dd4b39 0px, #d14836 100%) repeat scroll 0 0;
+    border: 1px solid #d14836;
+}
+
+.fansub .site .site-content form .btn-social-login.btn-google:hover,
+.fansub form button.btn-google:hover {
+    background: #d14836 none repeat scroll 0 0;
+    border-color: #d14836;
+    transition: none 0s ease 0s;
+}
+
+.fansub .site .site-content form button.btn-facebook:hover,
+.fansub form button.btn-facebook:hover {
+    background: #344e86 none repeat scroll 0 0;
+    border-color: #344e86;
+    transition: none 0s ease 0s;
+}
+
+
+.fansub form button.btn-social-login [class*="flicon"] {
+    fill: #f7f7f7;
+}
+
+.btn [class*="fl-icon-"], .btn [class*="flicon-"] {
+    display: inline-block;
+    font-size: 16px;
+    height: 18px;
+    line-height: 12px;
+    margin-right: 7px;
+    margin-top: -3px;
+    vertical-align: middle;
+    width: 18px;
+}
+
+@media only screen and (max-width: 480px) {
+    .fansub-login-box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .fansub-login-box .module-body {
+        padding: 10px;
+    }
+}
+
+.fansub .btn-social.btn-facebook,
+.fansub .fa-facebook {
+    background-color: #3b5998;
+    border: 1px solid #344e86;
+    color: #fff;
+}
+
+.fansub .btn-social.btn-facebook:hover,
+.fansub .btn-social.btn-facebook:focus,
+.fansub .btn-social.btn-facebook:active,
+.fansub .btn-social.btn-facebook.active,
+.fansub .btn-social.btn-facebook:hover .fa-facebook,
+.fansub .btn-social.btn-facebook:focus .fa-facebook,
+.fansub .btn-social.btn-facebook:active .fa-facebook,
+.fansub .btn-social.btn-facebook.active .fa-facebook,
+.fansub .fa-facebook:hover,
+.fansub .fa-facebook:focus,
+.fansub .fa-facebook:active,
+.fansub .fa-facebook.active,
+.fansub .open > .fa-facebook.dropdown-toggle {
+    background-color: #2d4373;
+    border: 1px solid #23345a;
+    color: #fff;
+}
+
+.fansub .btn-social.btn-facebook:active,
+.fansub .btn-social.btn-facebook.active,
+.fansub .fa-facebook:active,
+.fansub .fa-facebook.active,
+.fansub .open > .fa-facebook.dropdown-toggle {
+    background-image: none;
+}
+
+.fansub .btn-social.btn-facebook.disabled,
+.fansub .btn-social.btn-facebook.disabled:hover,
+.fansub .btn-social.btn-facebook.disabled:focus,
+.fansub .btn-social.btn-facebook.disabled:active,
+.fansub .btn-social.btn-facebook.disabled.active,
+.fansub .btn-social.btn-facebook[disabled],
+.fansub .btn-social.btn-facebook[disabled]:hover,
+.fansub .btn-social.btn-facebook[disabled]:focus,
+.fansub .btn-social.btn-facebook[disabled]:active,
+.fansub .btn-social.btn-facebook[disabled].active,
+.fansub .fa-facebook.disabled,
+.fansub .fa-facebook.disabled:hover,
+.fansub .fa-facebook.disabled:focus,
+.fansub .fa-facebook.disabled:active,
+.fansub .fa-facebook.disabled.active,
+.fansub .fa-facebook[disabled],
+.fansub .fa-facebook[disabled]:hover,
+.fansub .fa-facebook[disabled]:focus,
+.fansub .fa-facebook[disabled]:active,
+.fansub .fa-facebook.active[disabled],
+.fansub fieldset[disabled] .fa-facebook,
+.fansub fieldset[disabled] .fa-facebook:hover,
+.fansub fieldset[disabled] .fa-facebook:focus,
+.fansub fieldset[disabled] .fa-facebook:active,
+.fansub fieldset[disabled] .fa-facebook.active {
+    background-color: #3b5998;
+    border: 1px solid #344e86;
+}
+
+.fansub .btn-social.btn-facebook .badge,
+.fa-facebook .badge {
+    background-color: #fff;
+    color: #3b5998;
+}
+
+.fansub .btn-social.btn-twitter,
+.fa-twitter {
+    background-color: #26c4f1;
+    border: 1px solid #0fbdee;
+    color: #fff;
+}
+
+.fansub .btn-social.btn-twitter:hover,
+.fansub .btn-social.btn-twitter:focus,
+.fansub .btn-social.btn-twitter:active,
+.fansub .btn-social.btn-twitter.active,
+.fansub .btn-social.btn-twitter:hover .fa-twitter,
+.fansub .btn-social.btn-twitter:focus .fa-twitter,
+.fansub .btn-social.btn-twitter:active .fa-twitter,
+.fansub .btn-social.btn-twitter.active .fa-twitter,
+.fa-twitter:hover, .fa-twitter:focus, .fa-twitter:active, .fa-twitter.active, .open > .fa-twitter.dropdown-toggle {
+    background-color: #0eaad6;
+    border: 1px solid #0c8fb5;
+    color: #fff;
+}
+
+.fansub .btn-social:active,
+.fansub .btn-social.active,
+.fa-twitter:active, .fa-twitter.active, .open > .fa-twitter.dropdown-toggle {
+    background-image: none;
+}
+
+.fansub .btn-social.btn-twitter.disabled,
+.fansub .btn-social.btn-twitter.disabled:hover,
+.fansub .btn-social.btn-twitter.disabled:focus,
+.fansub .btn-social.btn-twitter.disabled:active,
+.fansub .btn-social.btn-twitter.disabled.active,
+.fansub .btn-social.btn-twitter[disabled],
+.fansub .btn-social.btn-twitter[disabled]:hover,
+.fansub .btn-social.btn-twitter[disabled]:focus,
+.fansub .btn-social.btn-twitter[disabled]:active,
+.fansub .btn-social.btn-twitter[disabled].active,
+.fa-twitter.disabled, .fa-twitter.disabled:hover, .fa-twitter.disabled:focus, .fa-twitter.disabled:active, .fa-twitter.disabled.active, .fa-twitter[disabled], .fa-twitter[disabled]:hover, .fa-twitter[disabled]:focus, .fa-twitter[disabled]:active, .fa-twitter.active[disabled], fieldset[disabled] .fa-twitter, fieldset[disabled] .fa-twitter:hover, fieldset[disabled] .fa-twitter:focus, fieldset[disabled] .fa-twitter:active, fieldset[disabled] .fa-twitter.active {
+    background-color: #26c4f1;
+    border: 1px solid #0fbdee;
+}
+
+.fansub .btn-social.btn-twitter .badge,
+.fa-twitter .badge {
+    background-color: #fff;
+    color: #26c4f1;
+}
+
+.fansub .btn-social.btn-google-plus,
+.fa-google-plus,
+.fa-gplus,
+.fa-googleplus {
+    background-color: #e93f2e;
+    border: 1px solid #e52b18;
+    color: #fff;
+}
+
+.fansub .btn-social.btn-google-plus:hover,
+.fansub .btn-social.btn-google-plus:focus,
+.fansub .btn-social.btn-google-plus:active,
+.fansub .btn-social.btn-google-plus.active,
+.fansub .btn-social.btn-google-plus:hover .fa-google-plus,
+.fansub .btn-social.btn-google-plus:focus .fa-google-plus,
+.fansub .btn-social.btn-google-plus:active .fa-google-plus,
+.fansub .btn-social.btn-google-plus.active .fa-google-plus,
+.fa-google-plus:hover, .fa-google-plus:focus, .fa-google-plus:active, .fa-google-plus.active, .open > .fa-google-plus.dropdown-toggle,
+.fa-gplus:hover, .fa-gplus:focus, .fa-gplus:active, .fa-gplus.active, .open > .fa-gplus.dropdown-toggle,
+.fa-googleplus:hover, .fa-googleplus:focus, .fa-googleplus:active, .fa-googleplus.active, .open > .fa-googleplus.dropdown-toggle {
+    background-color: #ce2616;
+    border: 1px solid #ae2012;
+    color: #fff;
+}
+
+.fa-google-plus:active, .fa-google-plus.active, .open > .fa-google-plus.dropdown-toggle,
+.fa-gplus:active, .fa-gplus.active, .open > .fa-gplus.dropdown-toggle,
+.fa-googleplus:active, .fa-googleplus.active, .open > .fa-googleplus.dropdown-toggle {
+    background-image: none;
+}
+
+.fa-google-plus.disabled, .fa-google-plus.disabled:hover, .fa-google-plus.disabled:focus, .fa-google-plus.disabled:active, .fa-google-plus.disabled.active, .fa-google-plus[disabled], .fa-google-plus[disabled]:hover, .fa-google-plus[disabled]:focus, .fa-google-plus[disabled]:active, .fa-google-plus.active[disabled], fieldset[disabled] .fa-google-plus, fieldset[disabled] .fa-google-plus:hover, fieldset[disabled] .fa-google-plus:focus, fieldset[disabled] .fa-google-plus:active, fieldset[disabled] .fa-google-plus.active,
+.fa-gplus.disabled, .fa-gplus.disabled:hover, .fa-gplus.disabled:focus, .fa-gplus.disabled:active, .fa-gplus.disabled.active, .fa-gplus[disabled], .fa-gplus[disabled]:hover, .fa-gplus[disabled]:focus, .fa-gplus[disabled]:active, .fa-gplus.active[disabled], fieldset[disabled] .fa-gplus, fieldset[disabled] .fa-gplus:hover, fieldset[disabled] .fa-gplus:focus, fieldset[disabled] .fa-gplus:active, fieldset[disabled] .fa-gplus.active,
+.fa-googleplus.disabled, .fa-googleplus.disabled:hover, .fa-googleplus.disabled:focus, .fa-googleplus.disabled:active, .fa-googleplus.disabled.active, .fa-googleplus[disabled], .fa-googleplus[disabled]:hover, .fa-googleplus[disabled]:focus, .fa-googleplus[disabled]:active, .fa-googleplus.active[disabled], fieldset[disabled] .fa-googleplus, fieldset[disabled] .fa-googleplus:hover, fieldset[disabled] .fa-googleplus:focus, fieldset[disabled] .fa-googleplus:active, fieldset[disabled] .fa-googleplus.active {
+    background-color: #e93f2e;
+    border: 1px solid #e52b18;
+}
+
+.fa-google-plus .badge,
+.fa-gplus .badge,
+.fa-googleplus .badge {
+    background-color: #fff;
+    color: #e93f2e;
+}
+
+.fansub .btn-social.btn-youtube,
+.fa-youtube {
+    background-color: #e63127;
+    border: 1px solid #cf2c23;
+    color: #fff;
+}
+
+.fansub .btn-social.btn-youtube:hover,
+.fansub .btn-social.btn-youtube:focus,
+.fansub .btn-social.btn-youtube:active,
+.fansub .btn-social.btn-youtube.active,
+.fansub .btn-social.btn-youtube:hover .fa-youtube,
+.fansub .btn-social.btn-youtube:focus .fa-youtube,
+.fansub .btn-social.btn-youtube:active .fa-youtube,
+.fansub .btn-social.btn-youtube.active .fa-youtube,
+.fa-youtube:hover, .fa-youtube:focus, .fa-youtube:active, .fa-youtube.active, .open > .fa-youtube.dropdown-toggle {
+    background-color: #ce2616;
+    border: 1px solid #ae2012;
+    color: #fff;
+}
+
+.fa-youtube:active, .fa-youtube.active, .open > .fa-youtube.dropdown-toggle {
+    background-image: none;
+}
+
+.fansub .btn-social.btn-youtube.disabled,
+.fansub .btn-social.btn-youtube.disabled:hover,
+.fansub .btn-social.btn-youtube.disabled:focus,
+.fansub .btn-social.btn-youtube.disabled:active,
+.fansub .btn-social.btn-youtube.disabled.active,
+.fansub .btn-social.btn-youtube[disabled],
+.fansub .btn-social.btn-youtube[disabled]:hover,
+.fansub .btn-social.btn-youtube[disabled]:focus,
+.fansub .btn-social.btn-youtube[disabled]:active,
+.fansub .btn-social.btn-youtube[disabled].active,
+.fa-youtube.disabled, .fa-youtube.disabled:hover, .fa-youtube.disabled:focus, .fa-youtube.disabled:active, .fa-youtube.disabled.active, .fa-youtube[disabled], .fa-youtube[disabled]:hover, .fa-youtube[disabled]:focus, .fa-youtube[disabled]:active, .fa-youtube.active[disabled], fieldset[disabled] .fa-youtube, fieldset[disabled] .fa-youtube:hover, fieldset[disabled] .fa-youtube:focus, fieldset[disabled] .fa-youtube:active, fieldset[disabled] .fa-youtube.active {
+    background-color: #e63127;
+    border: 1px solid #cf2c23;
+}
+
+.fansub .btn-social.btn-youtube .badge,
+.fa-youtube .badge {
+    background-color: #fff;
+    color: #e63127;
+}
+
+.fansub .btn-social.btn-rss,
+.fa-rss {
+    background-color: #feae1b;
+    border: 1px solid #e49c18;
+    color: #fff;
+}
+
+.fansub .btn-social.btn-rss:hover,
+.fansub .btn-social.btn-rss:focus,
+.fansub .btn-social.btn-rss:active,
+.fansub .btn-social.btn-rss.active,
+.fansub .btn-social.btn-rss:hover .fa-rss,
+.fansub .btn-social.btn-rss:focus .fa-rss,
+.fansub .btn-social.btn-rss:active .fa-rss,
+.fansub .btn-social.btn-rss.active .fa-rss,
+.fa-rss:hover, .fa-rss:focus, .fa-rss:active, .fa-rss.active, .open > .fa-rss.dropdown-toggle {
+    background-color: #e49c18;
+    border: 1px solid #cd8c15;
+    color: #fff;
+}
+
+.fa-rss:active, .fa-rss.active, .open > .fa-rss.dropdown-toggle {
+    background-image: none;
+}
+
+.fansub .btn-social.btn-rss.disabled,
+.fansub .btn-social.btn-rss.disabled:hover,
+.fansub .btn-social.btn-rss.disabled:focus,
+.fansub .btn-social.btn-rss.disabled:active,
+.fansub .btn-social.btn-rss.disabled.active,
+.fansub .btn-social.btn-rss[disabled],
+.fansub .btn-social.btn-rss[disabled]:hover,
+.fansub .btn-social.btn-rss[disabled]:focus,
+.fansub .btn-social.btn-rss[disabled]:active,
+.fansub .btn-social.btn-rss[disabled].active,
+.fa-rss.disabled, .fa-rss.disabled:hover, .fa-rss.disabled:focus, .fa-rss.disabled:active, .fa-rss.disabled.active, .fa-rss[disabled], .fa-rss[disabled]:hover, .fa-rss[disabled]:focus, .fa-rss[disabled]:active, .fa-rss.active[disabled], fieldset[disabled] .fa-rss, fieldset[disabled] .fa-rss:hover, fieldset[disabled] .fa-rss:focus, fieldset[disabled] .fa-rss:active, fieldset[disabled] .fa-rss.active {
+    background-color: #feae1b;
+    border: 1px solid #e49c18;
+}
+
+.fansub .btn-social.btn-rss .badge,
+.fa-rss .badge {
+    background-color: #fff;
+    color: #feae1b;
+}
+
+.fansub .btn-social.btn-pinterest,
+.fa-pinterest {
+    background-color: #b81621;
+    border: 1px solid #a1131d;
+    color: #fff;
+}
+
+.fansub .btn-social.btn-pinterest:hover,
+.fansub .btn-social.btn-pinterest:focus,
+.fansub .btn-social.btn-pinterest:active,
+.fansub .btn-social.btn-pinterest.active,
+.fansub .btn-social.btn-pinterest:hover .fa-pinterest,
+.fansub .btn-social.btn-pinterest:focus .fa-pinterest,
+.fansub .btn-social.btn-pinterest:active .fa-pinterest,
+.fansub .btn-social.btn-pinterest.active .fa-pinterest,
+.fa-pinterest:hover, .fa-pinterest:focus, .fa-pinterest:active, .fa-pinterest.active, .open > .fa-pinterest.dropdown-toggle {
+    background-color: #8a1119;
+    border: 1px solid #6b0d13;
+    color: #fff;
+}
+
+.fa-pinterest:active, .fa-pinterest.active, .open > .fa-pinterest.dropdown-toggle {
+    background-image: none;
+}
+
+.fansub .btn-social.btn-pinterest.disabled,
+.fansub .btn-social.btn-pinterest.disabled:hover,
+.fansub .btn-social.btn-pinterest.disabled:focus,
+.fansub .btn-social.btn-pinterest.disabled:active,
+.fansub .btn-social.btn-pinterest.disabled.active,
+.fansub .btn-social.btn-pinterest[disabled],
+.fansub .btn-social.btn-pinterest[disabled]:hover,
+.fansub .btn-social.btn-pinterest[disabled]:focus,
+.fansub .btn-social.btn-pinterest[disabled]:active,
+.fansub .btn-social.btn-pinterest[disabled].active,
+.fa-pinterest.disabled, .fa-pinterest.disabled:hover, .fa-pinterest.disabled:focus, .fa-pinterest.disabled:active, .fa-pinterest.disabled.active, .fa-pinterest[disabled], .fa-pinterest[disabled]:hover, .fa-pinterest[disabled]:focus, .fa-pinterest[disabled]:active, .fa-pinterest.active[disabled], fieldset[disabled] .fa-pinterest, fieldset[disabled] .fa-pinterest:hover, fieldset[disabled] .fa-pinterest:focus, fieldset[disabled] .fa-pinterest:active, fieldset[disabled] .fa-pinterest.active {
+    background-color: #b81621;
+    border: 1px solid #a1131d;
+}
+
+.fansub .btn-social.btn-pinterest .badge,
+.fa-pinterest .badge {
+    background-color: #fff;
+    color: #b81621;
+}
+
+.fansub .btn-social.btn-linkedin,
+.fa-linkedin {
+    background-color: #007bb6;
+    border: 1px solid #006a9d;
+    color: #fff;
+}
+
+.fansub .btn-social.btn-linkedin:hover,
+.fansub .btn-social.btn-linkedin:focus,
+.fansub .btn-social.btn-linkedin:active,
+.fansub .btn-social.btn-linkedin.active,
+.fansub .btn-social.btn-linkedin:hover .fa-linkedin,
+.fansub .btn-social.btn-linkedin:focus .fa-linkedin,
+.fansub .btn-social.btn-linkedin:active .fa-linkedin,
+.fansub .btn-social.btn-linkedin.active .fa-linkedin,
+.fa-linkedin:hover, .fa-linkedin:focus, .fa-linkedin:active, .fa-linkedin.active, .open > .fa-linkedin.dropdown-toggle {
+    background-color: #005983;
+    border: 1px solid #00405f;
+    color: #fff;
+}
+
+.fa-linkedin:active, .fa-linkedin.active, .open > .fa-linkedin.dropdown-toggle {
+    background-image: none;
+}
+
+.fansub .btn-social.btn-linkedin.disabled,
+.fansub .btn-social.btn-linkedin.disabled:hover,
+.fansub .btn-social.btn-linkedin.disabled:focus,
+.fansub .btn-social.btn-linkedin.disabled:active,
+.fansub .btn-social.btn-linkedin.disabled.active,
+.fansub .btn-social.btn-linkedin[disabled],
+.fansub .btn-social.btn-linkedin[disabled]:hover,
+.fansub .btn-social.btn-linkedin[disabled]:focus,
+.fansub .btn-social.btn-linkedin[disabled]:active,
+.fansub .btn-social.btn-linkedin[disabled].active,
+.fa-linkedin.disabled, .fa-linkedin.disabled:hover, .fa-linkedin.disabled:focus, .fa-linkedin.disabled:active, .fa-linkedin.disabled.active, .fa-linkedin[disabled], .fa-linkedin[disabled]:hover, .fa-linkedin[disabled]:focus, .fa-linkedin[disabled]:active, .fa-linkedin.active[disabled], fieldset[disabled] .fa-linkedin, fieldset[disabled] .fa-linkedin:hover, fieldset[disabled] .fa-linkedin:focus, fieldset[disabled] .fa-linkedin:active, fieldset[disabled] .fa-linkedin.active {
+    background-color: #007bb6;
+    border: 1px solid #006a9d;
+}
+
+.fansub .btn-social.btn-linkedin .badge,
+.fa-linkedin .badge {
+    background-color: #fff;
+    color: #007bb6;
+}
+
+.fansub .btn-social.btn-email,
+.fa-email {
+    background-color: #0a88ff;
+    border: 1px solid #007bf0;
+    color: #fff;
+}
+
+.fansub .btn-social.btn-email:hover,
+.fansub .btn-social.btn-email:focus,
+.fansub .btn-social.btn-email:active,
+.fansub .btn-social.btn-email.active,
+.fansub .btn-social.btn-email:hover .fa-email,
+.fansub .btn-social.btn-email:focus .fa-email,
+.fansub .btn-social.btn-email:active .fa-email,
+.fansub .btn-social.btn-email.active .fa-email,
+.fa-email:hover, .fa-email:focus, .fa-email:active, .fa-email.active, .open > .fa-email.dropdown-toggle {
+    background-color: #006ed6;
+    border: 1px solid #005cb2;
+    color: #fff;
+}
+
+.fa-email:active, .fa-email.active, .open > .fa-email.dropdown-toggle {
+    background-image: none;
+}
+
+.fansub .btn-social.btn-email.disabled,
+.fansub .btn-social.btn-email.disabled:hover,
+.fansub .btn-social.btn-email.disabled:focus,
+.fansub .btn-social.btn-email.disabled:active,
+.fansub .btn-social.btn-email.disabled.active,
+.fansub .btn-social.btn-email[disabled],
+.fansub .btn-social.btn-email[disabled]:hover,
+.fansub .btn-social.btn-email[disabled]:focus,
+.fansub .btn-social.btn-email[disabled]:active,
+.fansub .btn-social.btn-email[disabled].active,
+.fa-email.disabled, .fa-email.disabled:hover, .fa-email.disabled:focus, .fa-email.disabled:active, .fa-email.disabled.active, .fa-email[disabled], .fa-email[disabled]:hover, .fa-email[disabled]:focus, .fa-email[disabled]:active, .fa-email.active[disabled], fieldset[disabled] .fa-email, fieldset[disabled] .fa-email:hover, fieldset[disabled] .fa-email:focus, fieldset[disabled] .fa-email:active, fieldset[disabled] .fa-email.active {
+    background-color: #0a88ff;
+    border: 1px solid #007bf0;
+}
+
+.fansub .btn-social.btn-email .badge,
+.fa-email .badge {
+    background-color: #fff;
+    color: #0a88ff;
+}
+
+.fansub .comment-list li:after,
+.fansub .clearfix:after,
+.fansub .clear,
+.fansub .comment-list .comment-body:after,
+.fansub .widget ul,
+.fansub .widget ol,
+.fansub .comment-list li .children,
+.fansub .comment-list li .comment-respond {
+    clear: both;
+}
+
+.fansub input[type="search"],
+.fansub .content-area .search-form .search-field,
+.fansub .widget-sb-subscribe .email-field,
+.fansub .widget_search .search-field,
+.fansub #wp-calendar,
+.fansub .widget li,
+.fansub table,
+.fansub .comment-list li .comment-respond .comment-form p textarea,
+.fansub .fansub-widget-facebook-box > div,
+.fansub .fansub-mobile-menu li,
+.fansub div.post-thumbnail .wp-post-image,
+.fb-comments iframe {
+    width: 100%;
+}
+
+.fansub .fansub-hidden *,
+.fansub .fansub-hidden {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+
+.like-recommend-buttons .item {
+    float: left;
+}
+
+.like-recommend-buttons .item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.fb-like iframe {
+    z-index: 499;
+}
+
+.fansub .btn-social:hover .fa,
+.fansub .btn-social:focus .fa,
+.fansub .btn-social:active .fa,
+.fansub .btn-social.active .fa,
+.fansub .btn-social .fa {
+    border: medium none !important;
+}
+
+/**
+ * WooCommerce
+ */
+
+.single-product .fansub-post .entry-summary .entry-title {
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.single-product .fansub-post .entry-summary .price {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+}
+
+.single-product .fansub-post .entry-summary .price del {
+    margin-right: 10px;
+}
+
+.single-product .fansub-post .entry-summary .price del,
+.single-product .fansub-post .entry-summary .price del .amount {
+    color: #777;
+}
+
+.single-product .fansub-post .entry-summary .price ins {
+    text-decoration: none;
+}
+
+.single-product.woocommerce .modal.product-fast-buy .amount,
+.single-product .fansub-post .entry-summary .price > .amount,
+.single-product .fansub-post .entry-summary .price ins .amount {
+    color: #eb242b;
+    font-size: 25px;
+}
+
+.single-product .fansub-post .entry-summary .price del .amount,
+.single-product .fansub-post .entry-summary .price ins .amount {
+    vertical-align: middle;
+}
+
+.single-product .fansub-post .entry-summary form.cart {
+    border-bottom: 1px dotted #eee;
+    border-top: 1px dotted #eee;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.single-product .fansub-post .entry-summary form.cart .quantity {
+    margin-right: 10px;
+    width: 20%;
+}
+
+.single-product .fansub-post .entry-summary form.cart .quantity input {
+    background-color: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    height: 47px;
+    width: 100%;
+}
+
+.woocommerce #order_review #place_order,
+.fansub .btn-clickable,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:hover,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button,
+.fansub.single-product .site .site-content .fansub-post .entry-summary form.cart .single_add_to_cart_button:hover,
+.fansub.single-product .site .site-content .fansub-post .entry-summary form.cart .single_add_to_cart_button,
+.fansub.single-product .fansub-post .entry-summary .single_add_to_cart_button:hover,
+.fansub.single-product .fansub-post .entry-summary .single_add_to_cart_button {
+    background: #8ac843 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: arial,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 50px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: normal;
+}
+
+.fansub.single-product .site .site-content .fansub-post .entry-summary form.cart .single_add_to_cart_button:disabled:hover,
+.fansub.single-product .site .site-content .fansub-post .entry-summary form.cart .single_add_to_cart_button:disabled,
+.fansub.single-product .site .site-content .fansub-post .entry-summary form.cart .single_add_to_cart_button.disabled:hover,
+.fansub.single-product .site .site-content .fansub-post .entry-summary form.cart .single_add_to_cart_button.disabled,
+.fansub .btn-clickable:disabled,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button:disabled,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:disabled,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button.alt:disabled,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button:disabled,
+.fansub .btn-clickable:disabled:hover,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button:disabled:hover,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:disabled:hover,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button.alt:disabled:hover,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button:disabled:hover {
+    background-color: #ddd;
+    color: #aaa;
+}
+
+.woocommerce #order_review #place_order,
+.fansub .btn-clickable,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:hover,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button:hover,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button {
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.woocommerce #order_review #place_order,
+.fansub .btn-clickable,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:hover,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button:hover,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button {
+    -webkit-box-shadow: 0 -3px 0 0 #6ea035 inset;
+    -moz-box-shadow: 0 -3px 0 0 #6ea035 inset;
+    box-shadow: 0 -3px 0 0 #6ea035 inset;
+}
+
+.fansub .btn-clickable:disabled,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button:disabled,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:disabled,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button.alt:disabled,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button:disabled {
+    -webkit-box-shadow: 0 -3px 0 0 #aaa inset;
+    -moz-box-shadow: 0 -3px 0 0 #aaa inset;
+    box-shadow: 0 -3px 0 0 #aaa inset;
+}
+
+.woocommerce #order_review #place_order:active,
+.fansub .btn-clickable:active,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button:active,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:active,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button:active {
+    -webkit-box-shadow: 0 -1px 0 0 #6ea035 inset;
+    -moz-box-shadow: 0 -1px 0 0 #6ea035 inset;
+    box-shadow: 0 -1px 0 0 #6ea035 inset;
+}
+
+.fansub .btn-clickable:disabled:active,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button:disabled:active,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:disabled:active,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button.alt:disabled:active,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button:disabled:active {
+    -webkit-box-shadow: 0 -1px 0 0 #aaa inset;
+    -moz-box-shadow: 0 -1px 0 0 #aaa inset;
+    box-shadow: 0 -1px 0 0 #aaa inset;
+}
+
+.fansub .btn-clickable:active,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button:active,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:active,
+.single-product .fansub-post .entry-summary .single_add_to_cart_button:active {
+    top: 2px;
+}
+
+.fansub .btn-clickable.orange,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button:hover,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:hover,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button {
+    background: #f59123 none repeat scroll 0 0;
+}
+
+.fansub .btn-clickable.orange,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button:hover,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:hover,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button {
+    -webkit-box-shadow: 0 -3px 0 0 #c27806 inset;
+    -moz-box-shadow: 0 -3px 0 0 #c27806 inset;
+    box-shadow: 0 -3px 0 0 #c27806 inset;
+}
+
+.fansub .btn-clickable.orange:active,
+.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .button:active,
+.woocommerce-cart .cart_totals .wc-proceed-to-checkout .button:active {
+    -webkit-box-shadow: 0 -1px 0 0 #c27806 inset;
+    -moz-box-shadow: 0 -1px 0 0 #c27806 inset;
+    box-shadow: 0 -1px 0 0 #c27806 inset;
+}
+
+.single-product .fansub-post .entry-summary .single_add_to_cart_button span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 3px;
+    text-transform: none;
+}
+
+.single-product .fansub-post .entry-summary .product_meta > span:not(:last-child) {
+    margin-right: 8px;
+}
+
+.single-product .fansub-post .entry-summary .product_meta .sku {
+    font-weight: 700;
+}
+
+.single-product .fansub-post .entry-summary .product_meta a,
+.single-product .fansub-post .entry-summary .product_meta {
+    color: #333;
+}
+
+.single-product .fansub-post .entry-summary .product_meta a:hover {
+    text-decoration: underline;
+}
+
+.single-product .fansub-post .entry-summary .product_meta .posted_in {
+
+}
+
+.single-product .fansub-post .entry-summary .product_meta > span:before {
+    color: #777;
+    font-size: 15px;
+    margin-right: 5px;
+    vertical-align: -1px;
+}
+
+.single-product .fansub-post .entry-summary .product_meta .posted_in:before {
+    content: "\f022";
+}
+
+.single-product .fansub-post .entry-summary .product_meta .tagged_as:before {
+    content: "\f02c";
+}
+
+.woocommerce-cart .shop_table.cart {
+    border-radius: 0;
+}
+
+.woocommerce-cart .shop_table.cart thead {
+    background-color: #000;
+    color: #fff;
+}
+
+.woocommerce-cart form .shop_table.cart .actions .coupon .input-text {
+    min-width: 100px;
+}
+
+
+.fansub .checkout_coupon .form-row .input-text,
+.woocommerce-cart form .shop_table.cart .actions .coupon .input-text,
+.woocommerce-cart form .shop_table.cart .actions .button {
+    height: 30px;
+}
+
+.woocommerce-cart form .shop_table.cart {
+    border: medium none;
+}
+
+.woocommerce-cart form .shop_table.cart tr td:first-child {
+    border-left: 1px solid #e5e5e5;
+}
+
+.woocommerce-cart form .shop_table.cart tr td:last-child {
+    border-right: 1px solid #e5e5e5;
+}
+
+.woocommerce-cart form .shop_table.cart tr:last-child td {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.woocommerce-cart form .shop_table.cart .actions .button {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.woocommerce-cart form .shop_table.cart .actions .button:hover {
+    color: #fff;
+}
+
+.woocommerce-cart form .shop_table.cart .product-remove {
+    width: 10%;
+}
+
+.woocommerce-cart form .shop_table.cart .product-thumbnail {
+    width: 10%;
+}
+
+.woocommerce-cart form .shop_table.cart .product-name {
+    width: 30%;
+}
+
+.woocommerce-cart form .shop_table.cart .product-price {
+    width: 18%;
+}
+
+.woocommerce-cart form .shop_table.cart .product-quantity {
+    width: 10%;
+}
+
+.woocommerce-cart form .shop_table.cart .product-subtotal {
+    width: 22%;
+}
+
+@media screen and (max-width: 768px) {
+    .woocommerce-cart form .shop_table.cart thead {
+        display: block;
+    }
+
+    .woocommerce-cart form .shop_table.cart tr th,
+    .woocommerce-cart form .shop_table.cart .cart_item td {
+        display: table-cell;
+    }
+
+    .woocommerce-cart form .shop_table.cart.shop_table_responsive td:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .woocommerce-cart form .shop_table.cart .actions .button,
+    .woocommerce-cart form .shop_table.cart .actions .coupon input {
+        width: 100% !important;
+    }
+
+    .woocommerce-cart form .shop_table.cart .actions .coupon #coupon_code {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .woocommerce-cart form .shop_table.cart tr .product-price {
+        display: none;
+    }
+
+    .fansub .checkout_coupon .form-row,
+    .fansub .checkout_coupon .form-row input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 338px) {
+    .woocommerce-cart form .shop_table.cart + .return-shop .fa {
+        display: none;
+    }
+}
+
+.woocommerce-cart form .shop_table.cart .product-quantity input.qty {
+    border: 1px solid #ddd;
+    height: 20px;
+    width: 100%;
+}
+
+.fansub .woocommerce-checkout .woocommerce-shipping-fields .input-text,
+.fansub .woocommerce-checkout .woocommerce-billing-fields .input-text {
+    line-height: 19px;
+}
+
+.fansub .woocommerce form .form-row .select2-container a.select2-choice,
+.fansub .woocommerce-checkout .select2-container a.select2-choice {
+    color: #333;
+}
+
+.fansub .woocommerce-error li {
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+
+.fansub .fansub-post .entry-summary .woocommerce-product-rating {
+    margin-bottom: 0;
+}
+
+.fansub .woocommerce-tabs .commentlist {
+    padding: 0;
+}
+
+.fansub .comment-text .star-rating:before,
+.fansub .woocommerce-product-rating .star-rating:before,
+.fansub .comment-form-rating .stars a[class*="star-"],
+.fansub .comment-form-rating .stars a[class*="star-"]:hover,
+.woocommerce .star-rating span::before {
+    color: #ff9f54;
+    transition: none;
+}
+
+.fansub .cart-group + .cart-preview,
+.fansub .cart-content + .cart-preview {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    display: none;
+    left: 50%;
+    margin-left: -214px;
+    opacity: 0;
+    padding: 23px;
+    position: absolute;
+    top: 100%;
+    width: 428px;
+}
+
+.fansub .cart-preview > .title {
+    color: #333;
+    font-size: 18px;
+}
+
+.fansub .cart-preview .list-products .fansub-post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    position: relative;
+}
+
+.fansub .cart-preview .list-products .fansub-post .wp-post-image {
+    float: left;
+    margin-right: 10px;
+    height: 44px;
+    width: 44px;
+}
+
+.fansub .cart-preview .list-products .fansub-post .entry-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+
+.fansub .cart-preview .list-products .fansub-post .entry-title a {
+    color: #333;
+}
+
+.fansub .cart-preview .list-products .fansub-post .info {
+    color: #666;
+}
+
+.fansub .cart-preview .list-products .fansub-post .info span:not(:first-child) {
+    margin-left: 15px;
+}
+
+.fansub .cart-preview .list-products .fansub-post .fa-remove {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #eb242b;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: -10px;
+    opacity: 0.5;
+    padding: 2px 4px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.fansub .cart-preview .list-products .fansub-post .fa-remove:hover {
+    opacity: 1;
+}
+
+.fansub .cart-preview > .bottom {
+    margin-top: 10px;
+}
+
+.fansub .cart-preview .bottom .total {
+    display: table-cell;
+    font-size: 18px;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.fansub .cart-preview .bottom .total strong {
+    color: #ed145b;
+    font-size: 20px;
+}
+
+.fansub .cart-preview .bottom .btn-clickable {
+    display: table-cell;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.fansub .woocommerce .woocommerce-error,
+.fansub .woocommerce .woocommerce-info,
+.fansub .woocommerce .woocommerce-message {
+    border-top-color: #8ac843;
+}
+
+.fansub .woocommerce .woocommerce-error:before,
+.fansub .woocommerce .woocommerce-info:before,
+.fansub .woocommerce .woocommerce-message:before {
+    color: #8ac843;
+}
+
+.fansub .woocommerce .woocommerce-error {
+    border-top-color: #d43f3a;
+}
+
+.fansub .woocommerce .woocommerce-error:before {
+    color: #d43f3a;
+}
+
+.fansub .woocommerce .woocommerce-info {
+    border-top-color: #46b8da;
+}
+
+.fansub .woocommerce .woocommerce-info:before {
+    color: #46b8da;
+}
+
+.fansub .woocommerce .woocommerce-message {
+    border-top-color: #4cae4c;
+}
+
+.fansub .woocommerce .woocommerce-message:before {
+    color: #4cae4c;
+}
+
+.fansub .woocommerce form .form-row .input-text {
+    line-height: 19px;
+}
+
+.fansub .entry-summary form .variations td.label,
+.fansub .variations td.label {
+    color: #333;
+    display: table-cell;
+    font-size: 13px;
+    vertical-align: middle;
+    width: 22%;
+}
+
+.fansub .entry-summary form .variations td.label label,
+.fansub .variations td.label label {
+    font-weight: 400;
+    line-height: 19px;
+    margin: 0;
+}
+
+.fansub .checkout .cart_item .variation,
+.fansub .cart .cart_item .variation {
+    margin-top: 5px;
+}
+
+.fansub .order_details .order_item .variation dd,
+.fansub .checkout .cart_item .variation dd,
+.fansub .cart .cart_item .variation dd {
+    margin-bottom: 0;
+}
+
+.fansub .fansub-post span.onsale {
+    background-color: #eb242b;
+}
+
+.fansub .entry-summary button.fast-buy {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.fansub .entry-summary button.fast-buy span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 3px;
+    text-transform: none;
+}
+
+.single-product.woocommerce .modal.product-fast-buy .modal-header {
+    background-color: #eee;
+}
+
+.single-product.woocommerce .modal.product-fast-buy .modal-header .modal-title {
+    color: #666;
+    text-transform: uppercase;
+}
+
+.single-product.woocommerce .modal.product-fast-buy .modal-header button.close {
+    font-size: 21px;
+}
+
+.single-product.woocommerce .modal.product-fast-buy form textarea,
+.single-product.woocommerce .modal.product-fast-buy form input {
+    width: 100%;
+}
+
+.single-product.woocommerce .modal.product-fast-buy .entry-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.single-product.woocommerce .modal.product-fast-buy table.variations {
+    margin-bottom: 0;
+}
+
+.fansub .widget.woocommerce li a {
+    color: #333;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-transform: none;
+}
+
+.fansub .widget.woocommerce li del span.amount,
+.fansub .widget.woocommerce li del {
+    color: #666;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.fansub .widget.woocommerce li del {
+    margin-right: 10px;
+}
+
+.fansub .widget.woocommerce li span.amount,
+.fansub .widget.woocommerce li ins {
+    color: #ed145b;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.fansub .widget.woocommerce li a img.wp-post-image {
+    width: 48px;
+}
+
+.fansub .widget.woocommerce li {
+    padding: 8px 0;
+}
+
+.fansub .widget.woocommerce li .star-rating {
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 980px) {
+    .modal.product-fast-buy .info-column {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .fansub .site {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .fansub.admin-bar .sidebar .widget.fixed,
+    .fansub.admin-bar .fansub-mobile-menu {
+        top: 46px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .fansub .comment-list li .children {
+        padding-left: 0;
+    }
+
+    .fansub .comment-respond p input,
+    .fansub .comment-respond p textarea {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #wpadminbar {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .fansub .comment-list .comment-body .comment-tools > a.comment-report {
+        display: none;
+    }
+}
+
+/*
+* Ajax
+*/
+
+.fansub .module .ajax-wrap {
+    background-color: rgba(255, 255, 255, 0.85);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.fansub .module .ajax-wrap .ajax-loading {
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+    position: absolute;
+    top: 50%;
+}
